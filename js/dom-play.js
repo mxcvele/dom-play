@@ -7,7 +7,7 @@ function highlightActor(actor){
     const spans = document.querySelectorAll("div#play span");
     for(const mySpan of spans){
         if(mySpan.dataset.actor == actor){
-            mySpan.style.backgroundColor='green';
+            mySpan.style.backgroundColor='pink';
         }else{
             mySpan.style.backgroundColor='white';
         }
